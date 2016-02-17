@@ -5,21 +5,25 @@
     <View
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:background="@color/foo"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"/>
     <View
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:background="@color/foo"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"/>
     <View
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:background="@color/foo"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"/>
     <View
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:background="@color/foo"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"/>
 </RelativeLayout>
