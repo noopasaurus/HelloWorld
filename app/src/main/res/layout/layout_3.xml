@@ -11,17 +11,39 @@
 
     <View
         android:id="@+id/center"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="@color/foo"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"/>
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
 
     <View
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@color/foo"
-        android:layout_alignBaseline="@+id/center" />
+        android:layout_toLeftOf="@+id/center"
+        android:layout_above="@+id/center"/>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/foo"
+        android:layout_toRightOf="@+id/center"
+        android:layout_below="@+id/center"/>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/foo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/foobar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
 
 
 </RelativeLayout>
